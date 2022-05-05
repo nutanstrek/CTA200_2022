@@ -1,0 +1,264 @@
+    1  pwd
+    2  ls
+    3  ls -a
+    4  /cita/local/bin/passwd
+    5  exit
+    6  ls -a
+    7  .procmailrc
+    8  Get-Content .procmailrc
+    9  ls -a
+   10  mail
+   11  help
+   12  whoami
+   13  w
+   14  ls
+   15  top
+   16  exit
+   17  ls
+   18  pwd
+   19  ls ..
+   20  ls .
+   21  cd ~pgmartin
+   22  ls
+   23  cd ~psharma
+   24  ls
+   25  ls -a
+   26  .procmailrc
+   27  vim .procmailrc
+   28  more
+   29  more .
+   30  ls
+   31  more Desktop
+   32  cd
+   33  cd Desktop
+   34  pwd
+   35  ls
+   36  ls -a
+   37  cd ~murray
+   38  ls
+   39  cd Hopkins
+   40  cd Papers
+   41  cd Hopkins
+   42  ls
+   43  cd All_Feedback/
+   44  ls
+   45  cd second_draft/
+   46  ls
+   47  ls -la
+   48  evince sfh_vs_fbmodel.pdf 
+   49  ls -la sfh_vs_fbmodel.pdf 
+   50  evince sfh_vs_fbmodel.pdf 
+   51  cd ~psharma
+   52  cd Desktop/test.txt 
+   53  cd Desktop/
+   54  ls -la
+   55  history
+   56  grep . ms*
+   57  grep . ms
+   58  grep .ms
+   59  ls
+   60  ls -la > junk.txt
+   61  ls
+   62  vim junk.txt
+   63  mkdir whoshere
+   64  ls
+   65  cd whoshere/
+   66  vim whoshere
+   67  ls
+   68  cd whoshere
+   69  ls -la whoshere
+   70  chmod 664 whoshere
+   71  ls -la whoshere
+   72  chmod 864 whoshere
+   73  chmod 664 whoshere
+   74  ls -la whoshere
+   75  emacs
+   76  code .
+   77  mkfile paras.txt
+   78  help
+   79  mkdir paras.txt
+   80  ls
+   81  w
+   82  top
+   83  ls
+   84  pwd
+   85  /cita
+   86  cd .....
+   87  cd ..
+   88  ls
+   89  cd ~psharma
+   90  pwd
+   91  find . -name "para" -print
+   92  ls
+   93  cd whoshere
+   94  find . -name "para" -print
+   95  ls
+   96  find . -name "*para*" -print
+   97  python
+   98  module avail
+   99  module load python
+  100  python
+  101  module load mathematica
+  102  mathematica
+  103  modules list
+  104  module list
+  105  module purge
+  106  module list
+  107  cd /mnt
+  108  ls
+  109  ls -la
+  110  ls
+  111  cd scratch-lustre/
+  112  ls
+  113  ls *psharma
+  114  ls .psharma
+  115  cd psharma
+  116  ls
+  117  ls -la
+  118  pwd
+  119  mkdir CTA200_2022
+  120  ls
+  121  cd CTA200_2022/
+  122  mkdir assignment_1
+  123  cd assignment_1/
+  124  cd ..
+  125  ls
+  126  mkdir README.md
+  127  vim README.md
+  128  ls
+  129  more README.md
+  130  ls
+  131  rm README.md/
+  132  rm README.md
+  133  rm -d  README.md
+  134  ls
+  135  rm -d  README.md
+  136  ls
+  137  touch README.md
+  138  ls
+  139  vim README.md 
+  140  ls
+  141  pwd
+  142  cd ~murray
+  143  find Helloworld.c
+  144  find Hello_world.c
+  145  ls
+  146  find "*Hello*"
+  147  find Hello_world.c
+  148  find home
+  149  ls -la
+  150  find / -name "*Hello"
+  151  find / -name "*Hello_world*"
+  152  cd ~fhorrobin
+  153  find \ -name "Hello_world"
+  154  ls
+  155  cd CTA200H
+  156  ls
+  157  fhorrobin
+  158  ls
+  159  cd ..
+  160  cd fhorrobin/
+  161  ls
+  162  cd ~murray
+  163  ls
+  164  cd murray 
+  165  ls
+  166  cd ~murray
+  167  ls
+  168  cd murray
+  169  find Hello_world
+  170  find / ".py"
+  171  find / "Hello_world.py"
+  172  exit
+  173  history
+  174  cd ~murray
+  175  find . "*Hello_world*"
+  176  .
+  177  pwd
+  178  find /home/murray "*Hello_world*"
+  179  find /home/murray/ "*Hello_world*"
+  180  find /home/murray/murray "*Hello_world*"
+  181  cd scratch-lustre/
+  182  cd /mnt
+  183  ls
+  184  cd scratch-lustre
+  185  ls
+  186  cd murray
+  187  ls
+  188  cd ~murray
+  189  find . -name  Hello_world.c
+  190  find Hello_world.c
+  191  find Hello_world*
+  192  find "*Hello_world*"
+  193  find -name "*Hello_world*"
+  194  find . -name "Hello_*" 2> /dev/null
+  195* 
+  196  cd ~psharma
+  197  ls
+  198  grep | find . -name "Hello_*"
+  199  grep --help
+  200  find . -name "Hello_*" 2> /dev/null
+  201  cd ~murray
+  202  find . -name "Hello_*" 2> /dev/null
+  203  cd ./tmp/Hello_world.py
+  204  cd ./tmp/
+  205  cp Hello_world.py /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  206  cd ..
+  207  cp .Papers/tmp/Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  208  cd .Papers/tmp
+  209  pwd
+  210  cd .Papers/tmp/
+  211  cd Papers
+  212  cd tmp
+  213  ls
+  214  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  215  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.c
+  216  cd \mnt
+  217  cd ~psharma
+  218  cd \mnt
+  219  cd /mnt
+  220  cd scratch-lustre/
+  221  cd psharma/
+  222  ls
+  223  cp Hello_world-sharma.c CTA200_2022/assignment_1/Hello_world-sharma.c
+  224  cp Hello_world-sharma.py CTA200_2022/assignment_1/Hello_world-sharma.py
+  225  ls
+  226  rm Hello_world-sharma.c
+  227  rm Hello_world-sharma.py
+  228  ls
+  229  cd CTA200_2022/
+  230  ls
+  231  cd assignment_1/
+  232  ls
+  233  gcc Hello_world-sharma.c Hello_world.x
+  234  gcc Hello_world.x Hello_world-sharma.c
+  235  gcc help
+  236  module load gcc
+  237  gcc Hello_world.x Hello_world-sharma.c
+  238  gcc Hello_world-sharma.c Hello_world.x
+  239  gcc help
+  240  gcc
+  241  gcc Hello_world-sharma.c
+  242  ls
+  243  a.out
+  244  vim a.out
+  245  more a.out
+  246  ls
+  247  ./a.out
+  248  a.out
+  249  ./a.out
+  250  echo runs the program
+  251  python3 -m Hello_world-sharma.py
+  252  python3 -m Hello_world-sharma
+  253  echo runs the program
+  254  echo runs the programecho runs the program
+  255  vim Hello_world-sharma.py
+  256  vim Hello_world-sharma.c
+  257  gcc Hello_world-sharma.c
+  258  ./a.out 
+  259  python3 -m Hello_world-sharma.py
+  260  python3 -m Hello_world-sharma
+  261  python3 -m Hello_world-sharma > output_python.txt
+  262  ./a.out  > output_c.txt
+  263  ls
+  264  history > history.txt
