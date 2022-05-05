@@ -192,73 +192,174 @@
   192  find "*Hello_world*"
   193  find -name "*Hello_world*"
   194  find . -name "Hello_*" 2> /dev/null
-  195* 
-  196  cd ~psharma
-  197  ls
-  198  grep | find . -name "Hello_*"
-  199  grep --help
-  200  find . -name "Hello_*" 2> /dev/null
-  201  cd ~murray
-  202  find . -name "Hello_*" 2> /dev/null
-  203  cd ./tmp/Hello_world.py
-  204  cd ./tmp/
-  205  cp Hello_world.py /mnt/scratch-lustre/psharma/Hello_world-sharma.py
-  206  cd ..
-  207  cp .Papers/tmp/Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
-  208  cd .Papers/tmp
-  209  pwd
-  210  cd .Papers/tmp/
-  211  cd Papers
-  212  cd tmp
-  213  ls
-  214  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
-  215  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.c
-  216  cd \mnt
-  217  cd ~psharma
-  218  cd \mnt
-  219  cd /mnt
-  220  cd scratch-lustre/
-  221  cd psharma/
-  222  ls
-  223  cp Hello_world-sharma.c CTA200_2022/assignment_1/Hello_world-sharma.c
-  224  cp Hello_world-sharma.py CTA200_2022/assignment_1/Hello_world-sharma.py
-  225  ls
-  226  rm Hello_world-sharma.c
-  227  rm Hello_world-sharma.py
-  228  ls
-  229  cd CTA200_2022/
-  230  ls
-  231  cd assignment_1/
-  232  ls
-  233  gcc Hello_world-sharma.c Hello_world.x
-  234  gcc Hello_world.x Hello_world-sharma.c
-  235  gcc help
-  236  module load gcc
-  237  gcc Hello_world.x Hello_world-sharma.c
-  238  gcc Hello_world-sharma.c Hello_world.x
-  239  gcc help
-  240  gcc
-  241  gcc Hello_world-sharma.c
-  242  ls
-  243  a.out
-  244  vim a.out
-  245  more a.out
-  246  ls
-  247  ./a.out
-  248  a.out
-  249  ./a.out
-  250  echo runs the program
-  251  python3 -m Hello_world-sharma.py
-  252  python3 -m Hello_world-sharma
-  253  echo runs the program
-  254  echo runs the programecho runs the program
-  255  vim Hello_world-sharma.py
-  256  vim Hello_world-sharma.c
-  257  gcc Hello_world-sharma.c
-  258  ./a.out 
-  259  python3 -m Hello_world-sharma.py
-  260  python3 -m Hello_world-sharma
-  261  python3 -m Hello_world-sharma > output_python.txt
-  262  ./a.out  > output_c.txt
-  263  ls
-  264  history > history.txt
+  195  cd ~psharma
+  196  ls
+  197  grep | find . -name "Hello_*"
+  198  grep --help
+  199  find . -name "Hello_*" 2> /dev/null
+  200  cd ~murray
+  201  find . -name "Hello_*" 2> /dev/null
+  202  cd ./tmp/Hello_world.py
+  203  cd ./tmp/
+  204  cp Hello_world.py /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  205  cd ..
+  206  cp .Papers/tmp/Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  207  cd .Papers/tmp
+  208  pwd
+  209  cd .Papers/tmp/
+  210  cd Papers
+  211  cd tmp
+  212  ls
+  213  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.py
+  214  cp Hello_world.c /mnt/scratch-lustre/psharma/Hello_world-sharma.c
+  215  cd \mnt
+  216  cd ~psharma
+  217  cd \mnt
+  218  cd /mnt
+  219  cd scratch-lustre/
+  220  cd psharma/
+  221  ls
+  222  cp Hello_world-sharma.c CTA200_2022/assignment_1/Hello_world-sharma.c
+  223  cp Hello_world-sharma.py CTA200_2022/assignment_1/Hello_world-sharma.py
+  224  ls
+  225  rm Hello_world-sharma.c
+  226  rm Hello_world-sharma.py
+  227  ls
+  228  cd CTA200_2022/
+  229  ls
+  230  cd assignment_1/
+  231  ls
+  232  gcc Hello_world-sharma.c Hello_world.x
+  233  gcc Hello_world.x Hello_world-sharma.c
+  234  gcc help
+  235  module load gcc
+  236  gcc Hello_world.x Hello_world-sharma.c
+  237  gcc Hello_world-sharma.c Hello_world.x
+  238  gcc help
+  239  gcc
+  240  gcc Hello_world-sharma.c
+  241  ls
+  242  a.out
+  243  vim a.out
+  244  more a.out
+  245  ls
+  246  ./a.out
+  247  a.out
+  248  ./a.out
+  249  echo runs the program
+  250  python3 -m Hello_world-sharma.py
+  251  python3 -m Hello_world-sharma
+  252  echo runs the program
+  253  echo runs the programecho runs the program
+  254  vim Hello_world-sharma.py
+  255  vim Hello_world-sharma.c
+  256  gcc Hello_world-sharma.c
+  257  ./a.out 
+  258  python3 -m Hello_world-sharma.py
+  259  python3 -m Hello_world-sharma
+  260  python3 -m Hello_world-sharma > output_python.txt
+  261  ./a.out  > output_c.txt
+  262  ls
+  263  history > history.txt
+  264  ls
+  265  vim hitory
+  266  vim history
+  267  vim history.txt
+  268  exit
+  269  psharma@cosmo4.cita.utoronto.ca
+  270  exit
+  271  vncserver
+  272  exit
+  273  vncserver
+  274  ls
+  275  exit
+  276  git init
+  277  ls
+  278  ls -la
+  279  git status
+  280  touch main.c
+  281  ls
+  282  git add main.c 
+  283  git status
+  284  vi .git
+  285  git commit
+  286  git log
+  287  vim main.c
+  288  git status
+  289  git add -u
+  290  git status
+  291  git commit
+  292  git commit -m "Modified main.c"
+  293  git log
+  294  git checkout c8c45d8c99c004855d9d8be25f485b42b4bba7b6
+  295  git status
+  296  more main.c
+  297  git checkout master
+  298  more main.c
+  299  git branch new_feature
+  300  git status
+  301  git branch
+  302  git checkout new_feature
+  303  vim main.c
+  304  git status
+  305  git add -u
+  306  git status
+  307  git commit -m "New Feature branch"
+  308  git status
+  309  git log
+  310  git branch
+  311  vim .gitignore
+  312  ls
+  313  gcc main.c
+  314  git branch master
+  315  git checkout master
+  316  gcc main.c
+  317  more main.c
+  318  git merge master new_feature
+  319  git branch
+  320  more main.c
+  321  git branch -d new_feature
+  322  git branch
+  323  ssh genkeys
+  324  ssh gen-keys
+  325  ssh genkey
+  326  ssh-keygen
+  327  ls -la
+  328  more ssh_key
+  329  more ssh_key.pub
+  330  vnc server
+  331  vncserver
+  332  exit
+  333  history
+  334  cd /mount
+  335  cd \mount
+  336  cd \mnt
+  337  cd /mnt
+  338  cd scratch-lustre/
+  339  cd psharma/
+  340  cd CTA200_2022/
+  341  git status
+  342  ssh -T git@github.com
+  343  cd assignment_1/
+  344  rm ssh_keys
+  345  rm ssh_keys.pub
+  346  ssh-keygen
+  347  rm ssh_keys
+  348  rm ssh_keys.pub
+  349  cd ..
+  350  pwd
+  351  ssh-keygen
+  352  more ssh_keys
+  353  more ssh_keys.pub
+  354  ssh -T git@github.com
+  355  git push origin -u
+  356  git push --set-upstream origin main
+  357  git remote -v
+  358  git push origin main
+  359  git remote status
+  360  git status
+  361  ls
+  362  cd ass
+  363  cd assignment_1/
+  364  ls
+  365  history > history.txt
