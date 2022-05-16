@@ -83,39 +83,6 @@ The following plot contains the superposition of the above two gaussians. The re
  
 ![residual_45p45.png](images/residual_45p45.png)
 
-### Deriving the relation between dispersion of a Gaussian and the FWHM:
-For a gaussian of the following form:
-
-$$g(x) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$$
-
-  
-
-The FWHM is the distance between the points along x axis at which the function has a value of half of it's value at the mean. Thus we get
-
-$$\frac{1}{2}\frac{1}{\sqrt{2\pi\sigma^2}} = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\left(-\frac{(\text{FWHM/2})^2}{2\sigma^2}\right)$$
-
-$$\frac{1}{2} = \exp\left(-\frac{(\text{FWHM/2})^2}{2\sigma^2}\right) \Rightarrow (2 \ln2)^{1/2} = \frac{\text{FWHM}}{2\sigma}$$
-
-Thus, we finally get:
-
-$$\text{FWHM} = {2 \ \sigma}\sqrt{2 \ln2} \approx 2.355 \ \sigma$$
-
-  
-
-To find FWHM in units of temp. i.e., K,
-
-$$ \frac{1}{2}mv^2 = k_B T $$
-
-$$ \text{FWHM (in K)} = \frac{1}{2k_B}m \ (\text{FWHM (in Km/s)})^2 = \frac{4 m \ln2}{k_B} \sigma^2$$
-
-Here m is the mass of one of the gas particle i.e., atomic hydrogen. Thus $m = 1.008*1.67377*10^{-27} kg$.
-
-Thus we get:
-
-$$\text{FWHM (in K)} = \frac{4 m \ln2}{k_B} \ \sigma^2 \approx 0.00034 \ \sigma^2$$
-
-Here $\sigma^2$ is the variance of the Gaussian in unit of (Km/s)^2.
-
 For the fitting above we get:
 
 	FWHM (in K) for the left part of the spectrum: 4332.776272564352 K 
