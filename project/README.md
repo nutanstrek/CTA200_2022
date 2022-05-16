@@ -9,7 +9,7 @@ The cube that was obtained from the data had (1047, 89, 88) as it's shape. which
 
 ### Extracting Spectrum for a single pixel
 Choose a random pixel from the data, plot it's spectrum, finding moments and then fitting gaussians to it. The spectrum for the pixel (45,45) looks like 
-![[Images/spectrum_45p45.png]]
+![[spectrum_45p45.png]]
 
 
 The above plot does have 2 main peaks. Then the moments and column density sum were found to be
