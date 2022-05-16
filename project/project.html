@@ -14479,7 +14479,7 @@ Kurtosis: 5.585697462953123
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065c4e2760&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065ea31940&gt;]</pre>
 </div>
 
 </div>
@@ -14833,7 +14833,7 @@ Average noise in the right tail: 0.0624478
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065e7786d0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065eb5bcd0&gt;]</pre>
 </div>
 
 </div>
@@ -14886,7 +14886,7 @@ Average noise in the right tail: 0.0624478
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065e7df160&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065edddf70&gt;]</pre>
 </div>
 
 </div>
@@ -14938,7 +14938,7 @@ Average noise in the right tail: 0.0624478
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065e7e8fd0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065eddc1f0&gt;]</pre>
 </div>
 
 </div>
@@ -15230,7 +15230,7 @@ FWHM (in K) for the right part of the spectrum: 6056.629257580936 K
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Avg.-2D-map-for-the-whole-cube">Avg. 2D map for the whole cube<a class="anchor-link" href="#Avg.-2D-map-for-the-whole-cube">&#182;</a></h2>
+<h2 id="Avg.-Column-density-for-the-whole-cube">Avg. Column density for the whole cube<a class="anchor-link" href="#Avg.-Column-density-for-the-whole-cube">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -15238,8 +15238,8 @@ FWHM (in K) for the right part of the spectrum: 6056.629257580936 K
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">average_spectrum</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data_cube</span><span class="p">[:,</span> <span class="p">:,:],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">average_spectrum</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cm</span><span class="o">.</span><span class="n">hot</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">average_cd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data_cube</span><span class="p">[:,</span> <span class="p">:,:],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">average_cd</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">cm</span><span class="o">.</span><span class="n">hot</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
 </pre></div>
 
@@ -15262,7 +15262,7 @@ FWHM (in K) for the right part of the spectrum: 6056.629257580936 K
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;matplotlib.colorbar.Colorbar at 0x2065e6c48e0&gt;</pre>
+<pre>&lt;matplotlib.colorbar.Colorbar at 0x2065ec79e80&gt;</pre>
 </div>
 
 </div>
@@ -15321,7 +15321,7 @@ FWHM (in K) for the right part of the spectrum: 6056.629257580936 K
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065c5a3c40&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065eaf97f0&gt;]</pre>
 </div>
 
 </div>
@@ -15430,7 +15430,7 @@ Peaks are at velocities: [-57.92441016 -37.80400996 -20.09582317]
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065b4222b0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065eedf850&gt;]</pre>
 </div>
 
 </div>
@@ -15733,7 +15733,7 @@ Kurtosis: 2259.8712759742216
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065e8ad910&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065c4bb760&gt;]</pre>
 </div>
 
 </div>
@@ -15786,7 +15786,7 @@ Kurtosis: 2259.8712759742216
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&lt;matplotlib.lines.Line2D at 0x2065e912d00&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x2065ee21bb0&gt;]</pre>
 </div>
 
 </div>
@@ -15973,7 +15973,7 @@ Generate parameters.txt file
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;matplotlib.legend.Legend at 0x2065e9366d0&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x2065f033070&gt;</pre>
 </div>
 
 </div>
