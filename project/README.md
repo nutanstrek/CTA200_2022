@@ -9,7 +9,7 @@ The cube that was obtained from the data had (1047, 89, 88) as it's shape. which
 
 ### Extracting Spectrum for a single pixel
 Choose a random pixel from the data, plot it's spectrum, finding moments and then fitting gaussians to it. The spectrum for the pixel (45,45) looks like 
-![[spectrum_45p45.png]]
+![[Images/spectrum_45p45.png]]
 
 
 The above plot does have 2 main peaks. Then the moments and column density sum were found to be
@@ -29,7 +29,7 @@ Using scipy function *find_peaks* I found the peaks and the minima for the above
 	Standard deviation: 10.115934829842644 km/s 
 	Skewness: -2.3645335224101913
 
-![[right_part_45p45.png]]
+![[Images/right_part_45p45.png]]
 
 	Mean velocity: -1.5245469218482248 km/s 
 	Standard deviation: 7.75119627037647 km/s 
