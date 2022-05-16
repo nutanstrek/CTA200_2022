@@ -9,7 +9,8 @@ The cube that was obtained from the data had (1047, 89, 88) as it's shape. which
 
 ### Extracting Spectrum for a single pixel
 Choose a random pixel from the data, plot it's spectrum, finding moments and then fitting gaussians to it. The spectrum for the pixel (45,45) looks like 
-![[spectrum_45p45.png]]
+
+![spectrum_45p45.png](images/spectrum_45p45.png)
 
 
 The above plot does have 2 main peaks. Then the moments and column density sum were found to be
@@ -23,13 +24,13 @@ The above plot does have 2 main peaks. Then the moments and column density sum w
 ### Dividing the spectrum into two velocity ranges and finding the moments
 Using scipy function *find_peaks* I found the peaks and the minima for the above spectrum which is at velocity of -17.681 km/s. So then I seperated the spectrum into two parts: left and right about this velocity. And these two parts look like:
 
-![[left_part_45p45.png]]
+![left_part_45p45.png](images/left_part_45p45.png)
 
 	Mean velocity: -36.83919964318618 km/s 
 	Standard deviation: 10.115934829842644 km/s 
 	Skewness: -2.3645335224101913
 
-![[Images/right_part_45p45.png]]
+![right_part_45p45.png](images/right_part_45p45.png)
 
 	Mean velocity: -1.5245469218482248 km/s 
 	Standard deviation: 7.75119627037647 km/s 
@@ -47,7 +48,7 @@ So using these ranges and the *numpy.std* function we get the noise to be:
 Using scipy.optimize.curve_fit and by tweaking the parameters a little bit I obtained an approximate gaussian for each of the parts. The fitting is shown below
 
 1. Left Part of the Spectrum:
-![[left_45p45_fit.png]]
+![left_45p45_fit.png](images/left_45p45_fit.png)
 Observed values: 
 
 	Mean velocity: -36.83919964318618 km/s 
@@ -60,7 +61,7 @@ Fitted values:
 	Standard deviation: 3.591560238 km/s
 
 2. Right Part of the Spectrum:
-![[right_45p45_fit.png]]
+![right_45p45_fit.png](images/right_45p45_fit.png)
 
 Observed values: 
 
@@ -75,9 +76,13 @@ Fitted values:
 
 3. Combined Fit:
 The following plot contains the superposition of the above two gaussians. The red crosses represent the actual data and the blue curve is the fitted gaussian.
-![[combined_fit_45p45.png]]
+
+![combined_fit_45p45.png](images/combined_fit_45p45.png)
+
 4. Residual Plot for the above fitting i.e., (data - model)
-![[residual_45p45.png]]
+ 
+![residual_45p45.png](images/residual_45p45.png)
+
 ### Deriving the relation between dispersion of a Gaussian and the FWHM:
 For a gaussian of the following form:
 
@@ -118,11 +123,11 @@ For the fitting above we get:
 
 ### Average Column Density for the whole cube
 When we just take the average value of $T_b$  for each pixel and then plot it out we get the following image:
-![[avg_whole_cube.png]]
+![avg_whole_cube.png](images/avg_whole_cube.png)
 
 ### Average spectrum for a small section of the cube
 For the pixels (45-10:45+10, 45-10:45+10) we obtain the following spectrum by averaging over all the pixels:
-![[avg_spectrum.png]]
+![avg_spectrum.png](images/avg_spectrum.png)
 Notice that the tails have close to no noise! The noise in the average spectrum using the end-tails turns out to be:
 
 	Noise in the left tail: 0.005715796 K
@@ -137,7 +142,7 @@ Just like for a single pixel case, we can fit two gaussians for the average spec
 
 1. Left part of the average spectrum:
 
-![[left_avg_fit.png]]
+![left_avg_fit.png](images/left_avg_fit.png)
 Observed values: 
 
 	Mean velocity: -56.475494595667676 km/s 
@@ -152,7 +157,7 @@ Fitted values:
 
 2. Right part of the average spectrum
 
-![[right_avg_fit.png]]
+![right_avg_fit.png](images/right_avg_fit.png)
 Observed values: 
 
 	Mean velocity: -19.50592465114145 km/s 
@@ -166,37 +171,37 @@ Fitted values:
 
 3. Combined Fitting to the average spectrum:
 
-![[avg_fit.png]]
+![avg_fit.png](images/avg_fit.png)
 4. Residual Plot for the above fitting i.e., (data - model)
 
-![[residual_avg.png]]
+![residual_avg.png](images/residual_avg.png)
 ### ROHSA decomposition
 Finally I used ROHSA to decompose the spectra and fit gaussians to each pixel of the cube. For fitting I used 3 gaussians and the data was for the same small region described above. The fitting produces 3 gaussian parameters for each pixel and the average is plotted below:
 
-![[rohsa_fitting.png]]
+![rohsa_fitting.png](images/rohsa_fitting.png)
 
 
 ### Integrated column density maps from the ROHSA:
-![[icdm_rohsa.png]]
+![icdm_rohsa.png](images/icdm_rohsa.png)
 For the whole cube:
-![[cd.png]]
+![cd.png](images/cd.png)
 
 
 ### Gaussian parameters for the three Gaussians:
-![[rohsa_gp_1.png]]
-![[rohsa_gp_2.png]]
-![[rohsa_gp_3.png]]
+![rohsa_gp_1.png](images/rohsa_gp_1.png)
+![rohsa_gp_2.png](images/rohsa_gp_2.png)
+![rohsa_gp_3.png](images/rohsa_gp_3.png)
 
 ### Mosaic
-![[mosaics_rohsa.png]]
+![mosaics_rohsa.png](images/mosaics_rohsa.png)
 ### Heatmap
 Heatmap for the whole cube not just the 20x20 pixels region.
 
-![[heatmap 1.png]]
+![heatmap 1.png](images/heatmap 1.png)
 
 ### Noise and  $\chi^2$ - Maps for the small region
-![[noise_map.png]]
+![noise_map.png](images/noise_map.png)
 
-![[chi2.png]]
+![chi2.png](images/chi2.png)
 
-![[rchi2.png]]
+![rchi2.png](images/rchi2.png)
